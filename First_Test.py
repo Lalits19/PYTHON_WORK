@@ -21,7 +21,7 @@ logger.setLevel(logging.DEBUG)
 conn_str = u'ods/ods@WARE'
 conn = cx_Oracle.connect(conn_str)
 v_test = 1
-logger = logging.getLogger('DATA-BASE CONNECTION')
+logger = logging.getLogger('DATA-BASE CONNECTION new')
 hdlr = logging.FileHandler(LOG_FILE_NAME)
 formatter = logging.Formatter('%(name)s | %(asctime)s |  %(levelname)s: %(message)s')
 hdlr.setFormatter(formatter)
